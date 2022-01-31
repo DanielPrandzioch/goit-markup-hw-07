@@ -40,8 +40,10 @@ button {
 	width: 1200px;
 	margin: 0 auto;
 }
-.section {
+.section:not(.about-us) {
 	padding-top: 94px;
+}
+.section {
 	padding-bottom: 94px;
 }
 .list {
@@ -123,7 +125,13 @@ button {
 
 /* ---- HERO ---- */
 .hero {
-	background: var(--dark-background)
+	background: var(--dark-background);
+	background-image: linear-gradient(
+		rgba(47, 48, 58, 0.4),
+		  rgba(47, 48, 58, 0.4)),
+	url("/images/Main/Hero/hero-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: cover;
 }
 .hero .container {
 	flex-direction: column;
@@ -164,7 +172,6 @@ button {
 .our-atuts .container {
 	display: flex;
 	align-items: center;
-
 }
 .atuts-list-item:not(:last-child) {
 	padding-right: 30px;

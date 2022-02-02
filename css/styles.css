@@ -91,9 +91,23 @@ button {
 	letter-spacing: 0.02em;
 	color: var(--second-text-color);
 }
-.header-address-mail {
-	margin-right: 50px;
+.mail-icon {
+	width: 16px;
+	height: 12px;
 	margin-left: 371px;
+}
+.phone-icon {
+	width: 10px;
+	height: 16px;
+}
+.mail-icon,
+.phone-icon {
+	fill: currentColor;
+	margin-right: 10px;
+}
+.header-address-mail {
+	margin-right: 30px;
+	
 }
 .nav-list-link:hover,
 .nav-list-link:focus,
@@ -103,9 +117,14 @@ button {
 .header-address-phone:focus {
 	color: var(--main-color);
 }
-
+.header-address {
+	display: flex;
+}
 .header-address-mail,
 .header-address-phone {
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: 500;
@@ -118,7 +137,6 @@ button {
 .active-link-pages {
 	color: var(--main-color);
 }
-
 /* ==== END HEADER ==== */
 
 /* ==== MAIN ==== */
@@ -131,7 +149,8 @@ button {
 		  rgba(47, 48, 58, 0.4)),
 	url("../images/Main/Hero/hero-bg.jpg");
 	background-repeat: no-repeat;
-	background-position: cover;
+	background-size: cover;
+	background-position: 50% 50%;
 }
 .hero .container {
 	flex-direction: column;
@@ -247,7 +266,32 @@ button {
 	letter-spacing: 0.03em;
 	margin-bottom: 30px;
 }
+.social-list {
+	display: flex;
+	justify-content: center;
+}
+.social-link {
+	width: 44px;
+	height: 44px;
+	display: block;
+	padding: 12px;
+	margin-bottom: 30px;
+	border-radius: 50%;
+	fill: #AFB1B8;
+}
 
+.social-link:hover,
+.social-link:focus {
+	fill: #fff;
+	background-color: var(--main-color);
+}
+.social-icon {
+	width: 20px;
+	height: 20px;
+}
+.social-list-item:not(:last-child) {
+margin-right: 10px;
+}
 
 /* ==== END MAIN ==== */
 

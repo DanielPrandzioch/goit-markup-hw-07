@@ -256,6 +256,24 @@ button {
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 }
+.about-us-div-relative {
+	position: relative;
+}
+.about-us-div-absolute {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 370px;
+	height: 70px;
+	background: rgba(47, 48, 58, 0.8);
+	position: absolute;
+	bottom: 0;
+	font-weight: 700;
+	font-size: 14px
+	line-height: 1.142;
+	text-transform: uppercase;
+	color: #fff;
+}
 .undertitle-team {
 	font-weight: 500;
 	font-size: 16px;

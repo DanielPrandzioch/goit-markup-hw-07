@@ -27,7 +27,9 @@
 				<nav class="nav">
 					<ul class="nav-list list">
 						<li class="nav-list-item">
-							<a class="nav-list-link active-link-pages" href="index.html">Agencja</a>
+							<a class="nav-list-link active-link-pages" href="index.html"
+								>Agencja</a
+							>
 						</li>
 						<li class="nav-list-item">
 							<a class="nav-list-link" href="portfolio.html">Portfolio</a>
@@ -63,7 +65,9 @@
 						</h1>
 					</div>
 					<div class="modal-btn-div">
-						<button class="modal-btn" type="button" data-modal-open>Zamów usługę</button>
+						<button class="modal-btn" type="button" data-modal-open>
+							Zamów usługę
+						</button>
 					</div>
 				</div>
 			</section>
@@ -392,80 +396,180 @@
 		</main>
 		<footer class="footer">
 			<div class="footer-div container">
-				<div class="left-side">
-					<a class="logo-footer" href="index.html"
-						><span class="logo-span">Web</span>Studio</a
-					>
-					<address class="footer-address">
-						<ul class="ul-footer list">
-							<li class="footer-list-item">
-								<a
-									class="footer-list-link"
-									href="https://goo.gl/maps/1F7WCMWeWTRUKXWQ6"
-									target="_blank"
-									>m. Warszawa, Aleje Jerozolimskie 21</a
-								>
-							</li>
-							<li class="footer-list-item">
-								<a class="footer-list-mail" href="mailto:info@example.com"
-									>info@example.com</a
-								>
-							</li>
-							<li class="footer-list-item">
-								<a class="footer-list-phone" href="tel:48111111111"
-									>+48 111 111 111</a
-								>
-							</li>
-						</ul>
-					</address>
-				</div>
-				<!-- JOIN US-->
-				<div class="join-us">
-					<ul class="icon-ul list">
-						<li>
-							<p class="join-us-title">Dołącz do nas</p>
-						</li>
-						<li>
-							<ul class="join-us-ul list">
-								<li class="footer-list-item2">
-									<a class="footer-link" href="#">
-										<svg class="footer-icon">
-											<use href="images/icons.svg#icon-instagram"></use>
-										</svg>
-									</a>
+				<ul class="list">
+					<li class="main-footer-ul-list-item">
+						<div class="left-side">
+							<a class="logo-footer" href="index.html"
+								><span class="logo-span">Web</span>Studio</a
+							>
+							<address class="footer-address">
+								<ul class="ul-footer list">
+									<li class="footer-list-item">
+										<a
+											class="footer-list-link"
+											href="https://goo.gl/maps/1F7WCMWeWTRUKXWQ6"
+											target="_blank"
+											>m. Warszawa, Aleje Jerozolimskie 21</a
+										>
+									</li>
+									<li class="footer-list-item">
+										<a class="footer-list-mail" href="mailto:info@example.com"
+											>info@example.com</a
+										>
+									</li>
+									<li class="footer-list-item">
+										<a class="footer-list-phone" href="tel:48111111111"
+											>+48 111 111 111</a
+										>
+									</li>
+								</ul>
+							</address>
+						</div>
+					</li>
+					<!-- JOIN US-->
+					<li class="main-footer-list-item">
+						<div class="join-us">
+							<ul class="icon-ul list">
+								<li>
+									<p class="join-us-title">Dołącz do nas</p>
 								</li>
-								<li class="footer-list-item2">
-									<a class="footer-link" href="#">
-										<svg class="footer-icon">
-											<use href="images/icons.svg#icon-twitter"></use>
-										</svg>
-									</a>
-								</li>
-								<li class="footer-list-item2">
-									<a class="footer-link" href="#">
-										<svg class="footer-icon cursor">
-											<use href="images/icons.svg#icon-facebook"></use>
-										</svg>
-									</a>
-								</li>
-								<li class="footer-list-item2">
-									<a class="footer-link" href="#">
-										<svg class="footer-icon">
-											<use href="images/icons.svg#icon-linkedin"></use>
-										</svg>
-									</a>
+								<li>
+									<ul class="join-us-ul list">
+										<li class="footer-list-item2">
+											<a class="footer-link" href="#">
+												<svg class="footer-icon">
+													<use href="images/icons.svg#icon-instagram"></use>
+												</svg>
+											</a>
+										</li>
+										<li class="footer-list-item2">
+											<a class="footer-link" href="#">
+												<svg class="footer-icon">
+													<use href="images/icons.svg#icon-twitter"></use>
+												</svg>
+											</a>
+										</li>
+										<li class="footer-list-item2">
+											<a class="footer-link" href="#">
+												<svg class="footer-icon cursor">
+													<use href="images/icons.svg#icon-facebook"></use>
+												</svg>
+											</a>
+										</li>
+										<li class="footer-list-item2">
+											<a class="footer-link" href="#">
+												<svg class="footer-icon">
+													<use href="images/icons.svg#icon-linkedin"></use>
+												</svg>
+											</a>
+										</li>
+									</ul>
 								</li>
 							</ul>
-						</li>
-					</ul>
-				</div>
+						</div>
+					</li>
+					<!-- NEWSLETTER -->
+					<li class="main-footer-ul-list-item">
+						<div class="newsletter">
+							<p class="newsletter-title">Zapisz się do newslettera</p>
+							<form class="footer-form">
+								<label for="email"></label>
+								<input
+									class="footer-input"
+									type="email"
+									name="email"
+									id="email"
+									placeholder="E-mail"
+								/>
+								<button class="footer-btn">
+									<input class="input-btn" type="submit" value="Zapisz się" />
+									<svg width="24" height="24">
+										<use href="images/icons.svg#button-icon"></use>
+									</svg>
+								</button>
+							</form>
+						</div>
+					</li>
+				</ul>
 			</div>
 		</footer>
+		<!-- =======  BACKDROP ====== -->
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
-				<button type="button" class="close-btn" data-modal-close>X</button>
+				<button type="button" class="close-btn" data-modal-close>x</button>
+				<div class="div-modal-form">
+					<form class="modal-form">
+						<label class="modal-title"
+							>Zostaw swoje dane w formularzu poniżej</label
+						>
+
+						<label class="info-label">
+							Imię
+							<div class="div-input-margin">
+								<input class="info-input" type="text" name="text" required />
+								<svg width="18" height="18">
+									<use href="/images/icons.svg#person-black"></use>
+								</svg>
+							</div>
+						</label>
+						<label class="info-label"
+							>Telefon
+							<div class="div-input-margin">
+								<input
+									class="info-input"
+									type="number"
+									name="number"
+									required
+								/>
+								<svg width="18" height="18">
+									<use href="images/icons.svg#phone-black"></use>
+								</svg>
+							</div>
+						</label>
+						<label class="info-label"
+							>Email
+							<div class="div-input-margin">
+								<input class="info-input" type="email" name="email" required />
+								<svg width="18" height="18">
+									<use href="images/icons.svg#email-black"></use>
+								</svg>
+							</div>
+						</label>
+						<label class="info-label"
+							>Komentarz
+							<div class="div-input-margin">
+								<textarea
+									class="info-input textarea"
+									name="comment"
+									rows="8"
+									placeholder="Wprowadź tekst"
+									required
+								></textarea>
+							</div>
+						</label>
+						<div class="checkbox-label-div">
+							<input
+								class="checkbox"
+								type="checkbox"
+								name="checkbox"
+								id="user-policy"
+								required
+							/>
+							<label for="user-policy" class="checkbox-label">
+								<p>
+									Oświadczam iż akceptuję <a href="#"> Regulamin</a> i
+									<a href="#"> Politykę Prywatności</a>.
+								</p>
+							</label>
+						</div>
+						<div class="manual-btn-div">
+						<button type="submit" class="manual-btn" >Wyślij</button>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
+
 		<script src="./js/modal.js"></script>
 	</body>
 </html>

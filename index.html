@@ -480,6 +480,7 @@
 									name="email"
 									id="email"
 									placeholder="E-mail"
+									required
 								/>
 								<button class="footer-btn">
 									<input class="input-btn" type="submit" value="Zapisz się" />
@@ -496,7 +497,11 @@
 		<!-- =======  BACKDROP ====== -->
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
-				<button type="button" class="close-btn" data-modal-close>x</button>
+				<button type="button" class="close-btn" data-modal-close>
+					<svg width="11" height="11">
+						<use href="../images/icons.svg#close-btn"></use>
+					</svg>
+				</button>
 				<div class="div-modal-form">
 					<form class="modal-form">
 						<label class="modal-title"
@@ -563,7 +568,7 @@
 							</label>
 						</div>
 						<div class="manual-btn-div">
-						<button type="submit" class="manual-btn" >Wyślij</button>
+							<button type="submit" class="manual-btn">Wyślij</button>
 						</div>
 					</form>
 				</div>

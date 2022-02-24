@@ -561,7 +561,9 @@ margin-right: 10px;
 	background-color: #fff;
 	cursor: pointer;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	
+}
+.close-btn-icon {
+	fill: #000;
 }
 .is-hidden {
 	opacity: 0;

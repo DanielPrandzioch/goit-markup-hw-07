@@ -1,0 +1,30 @@
+.social {
+	display: flex;
+	justify-content: center;
+}
+.social__link {
+	width: 44px;
+	height: 44px;
+	display: block;
+	padding: 12px;
+	margin-bottom: 30px;
+	border-radius: 50%;
+	fill: #AFB1B8;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+	fill: #fff;
+	background-color: var(--main-color);
+	}
+}
+
+
+.social__icon {
+	width: 20px;
+	height: 20px;
+}
+.social__item:not(:last-child) {
+margin-right: 10px;
+}

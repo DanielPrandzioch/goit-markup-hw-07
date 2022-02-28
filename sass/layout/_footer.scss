@@ -1,0 +1,30 @@
+.footer  {
+	background: var(--dark-background);
+
+	& .container {
+	padding-bottom: 60px;
+	}
+}
+
+.footer__item {
+	padding-top: 72px;
+
+	&:first-child {
+	padding-top: 60px;
+	margin-right: 70px;
+	}
+	&:last-child {
+	margin-left: 78px;
+	}
+}
+
+
+.footer__description {
+	color: var(--white-color);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.142;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	letter-spacing: 0.03em;
+}

@@ -1,0 +1,8 @@
+
+.section {
+	padding-bottom: 94px;
+
+	&:not(.about-us) {
+	padding-top: 94px;
+	}
+}

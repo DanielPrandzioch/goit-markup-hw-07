@@ -1,0 +1,15 @@
+
+.portfolio-controls__item {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.625;
+	letter-spacing: 0.03em;
+	color: var(--second-text-color);
+
+	&:not(:last-child) {
+	margin-right: 8px;
+	}
+}
+.portfolio-controls__list {
+	margin-bottom: 50px;
+}

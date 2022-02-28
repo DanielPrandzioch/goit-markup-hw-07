@@ -1,0 +1,44 @@
+.address__list {
+	display: flex;
+	flex-direction: column;
+}
+
+.address {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.714;
+	letter-spacing: 0.03em;
+	margin-top: 20px;
+}
+
+.address__link {
+	color: var(--white-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		color: var(--main-color);
+	}
+}
+.address__link--mail {
+	color: rgba(255, 255, 255, 0.6);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		color: var(--main-color);
+	}
+}
+.address__link--phone {
+	color: rgba(255, 255, 255, 0.6);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		color: var(--main-color);
+	}
+}
